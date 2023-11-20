@@ -1,4 +1,4 @@
-Amazon Project using java,Maven ,TestNG and POM
+Amazon Project using Selenium java,Maven ,TestNG and POM
 
 And we're using DDT framework in the project
 
