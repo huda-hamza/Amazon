@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/hoda.hamza/Desktop/Selenium/our project/Foodics">
+        <classes>
+            <class name="test_script.Login">
+            <methods>
+                <include name="login"/>
+                <include name="open_hammenu"/>
+               <include name="click_videogames"/>
+                <include name="ClickFreeShipping"/>
+            <include name="Add_product"/>
+        </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
